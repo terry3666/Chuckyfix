@@ -1084,7 +1084,9 @@ def bot(op):
                 elif wait["kickblack"] == True:
                     wait ["blacklist"][op.param2] = True
                     cl.kickoutFromGroup(op.param1,[op.param2])
-                    cl.inviteIntoGroup(op.param1,[op.param2])pass
+                    cl.inviteIntoGroup(op.param1,[op.param2])
+	    else:	
+	        pass
 
         if op.type == 19:
            if op.param3 in admin:
